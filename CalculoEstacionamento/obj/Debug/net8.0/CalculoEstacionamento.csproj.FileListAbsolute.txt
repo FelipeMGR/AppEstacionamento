@@ -1,0 +1,14 @@
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\bin\Debug\net8.0\CalculoEstacionamento.exe
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\bin\Debug\net8.0\CalculoEstacionamento.deps.json
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\bin\Debug\net8.0\CalculoEstacionamento.runtimeconfig.json
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\bin\Debug\net8.0\CalculoEstacionamento.dll
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\bin\Debug\net8.0\CalculoEstacionamento.pdb
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\CalculoEstacionamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\CalculoEstacionamento.AssemblyInfoInputs.cache
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\CalculoEstacionamento.AssemblyInfo.cs
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\CalculoEstacionamento.csproj.CoreCompileInputs.cache
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\CalculoEstacionamento.dll
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\refint\CalculoEstacionamento.dll
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\CalculoEstacionamento.pdb
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\CalculoEstacionamento.genruntimeconfig.cache
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\ref\CalculoEstacionamento.dll
