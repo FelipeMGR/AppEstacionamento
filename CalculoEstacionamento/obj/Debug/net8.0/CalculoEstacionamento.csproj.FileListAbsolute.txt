@@ -12,3 +12,4 @@ C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionament
 C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\CalculoEstacionamento.pdb
 C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\CalculoEstacionamento.genruntimeconfig.cache
 C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\ref\CalculoEstacionamento.dll
+C:\Users\felip\OneDrive\Documents\DIO\CalculoEstacionamento\CalculoEstacionamento\obj\Debug\net8.0\CalculoEstacionamento.sourcelink.json

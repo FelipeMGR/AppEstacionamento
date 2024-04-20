@@ -7,54 +7,80 @@ using CalculoEstacionamento.Exceções;
 
 namespace CalculoEstacionamento.Entities
 {
-    class CadastroCarro
+    public class CadastroCarro
     {
-        private readonly ICalculoPreco _preco;
-
-        public List<string> Placas { get; set; }
+        private decimal precoInicial = 15;
+        private decimal precoPorHora = 2;
+        private List<string> veiculos = new List<string>();
 
         public CadastroCarro()
         {
         }
 
-        public CadastroCarro(List<string> placaCarro)
+        public CadastroCarro(decimal precoInicial, decimal precoPorHora, List<string> veiculos)
         {
-            Placas = placaCarro;
+            this.precoInicial = precoInicial;
+            this.precoPorHora = precoPorHora;
+            this.veiculos = veiculos;
         }
 
-        public void AdicionarCarro(string placa)
+        public void AdicionarCarro()
         {
-            Placas.Add(placa);
+            Console.WriteLine("Informe a placa do carro: ");
+            string placa = Console.ReadLine();
+            veiculos.Add(placa);
         }
 
-        public decimal RemoverCarro(string placa)
+        public decimal RemoverCarro()
         {
-            Placas.Remove(placa);
-            return _preco.CalculoPreco(_preco.PrecoInicial, _preco.PrecoHora, _preco.HoraEntrada, _preco.HoraSaida);
+            Console.WriteLine("Informe a placa do carro: ");
+            string placa = Console.ReadLine();
+            Console.Write("Informe a hora de entrada, no formato HH:mm: ");
+            TimeSpan horaEntrada = TimeSpan.Parse(Console.ReadLine());
+            Console.Write("Informe a hora de saída, no formato HH:mm: ");
+            TimeSpan horaSaída = TimeSpan.Parse(Console.ReadLine());
+            decimal pagar = CalculoPreco(precoPorHora, precoInicial, horaEntrada, horaSaída);
+            veiculos.Remove(placa);
+            Console.WriteLine($"Valor a ser pago: R${pagar}");
+            return pagar;
+        }
+
+        public decimal CalculoPreco(decimal precoHora, decimal precoInicial, TimeSpan horaentrada, TimeSpan horasaida)
+        {
+            TimeSpan totalHoras = TimeSpan.FromHours(horasaida.Hours).Subtract(horaentrada);
+
+            if (totalHoras.Hours > 12)
+            {
+                decimal precoFinal = precoInicial + totalHoras.Hours * precoHora * 2;
+                return precoFinal;
+            }
+
+            return totalHoras.Hours * precoHora + precoInicial;
+
         }
 
         public void ListarCarros()
         {
-            Placas.ToList();
+            foreach(var item in veiculos)
+            {
+                Console.WriteLine(item);
+            }
         }
         public void CadastroSistema(int opcao)
         {
-            Console.Write("Informe a quantidade de veículos que serão cadastrados: ");
-            int quantidade = int.Parse(Console.ReadLine());
-            for (int i = 0; i < quantidade; i++)
+            bool menuAtivo = true;
+            
+            while(menuAtivo)
             {
-
+                Console.Write("Selecione uma opção: ");
+                opcao = int.Parse(Console.ReadLine());
                 if (opcao == 1)
                 {
-                    Console.WriteLine("Informe a placa do carro: ");
-                    var placa = Console.ReadLine();
-                    AdicionarCarro(placa);
+                    AdicionarCarro();
                 }
                 else if (opcao == 2)
                 {
-                    Console.WriteLine("Informe a placa do carro: ");
-                    var placa = Console.ReadLine();
-                    RemoverCarro(placa);
+                    RemoverCarro();
                 }
                 else if (opcao == 3)
                 {
@@ -62,13 +88,16 @@ namespace CalculoEstacionamento.Entities
                 }
                 else if (opcao == 4)
                 {
+                    
                     Console.WriteLine("Volte sempre!");
+                    menuAtivo = false;
                 }
                 else
                 {
                     throw new ExcecoesPrincipais("Opção inválida, recomece a operação.");
                 }
             }
+               
         }
     }
 }

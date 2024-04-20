@@ -14,8 +14,6 @@ namespace Estacionamento
             Console.WriteLine("2. Remover veículo");
             Console.WriteLine("3. Listar veículos");
             Console.WriteLine("4. Sair");
-
-            Console.Write("Informe a opção desejada: ");
             int opcao = int.Parse(Console.ReadLine());
             carro.CadastroSistema(opcao);
         }

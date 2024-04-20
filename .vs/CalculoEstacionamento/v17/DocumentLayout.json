@@ -11,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{73E99EBA-1D22-4CFC-BF70-D0D9D929B3BE}|CalculoEstacionamento\\CalculoEstacionamento.csproj|solutionrelative:calculoestacionamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{73E99EBA-1D22-4CFC-BF70-D0D9D929B3BE}|CalculoEstacionamento\\CalculoEstacionamento.csproj|c:\\users\\felip\\onedrive\\documents\\dio\\calculoestacionamento\\calculoestacionamento\\entities\\icalculopreco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E99EBA-1D22-4CFC-BF70-D0D9D929B3BE}|CalculoEstacionamento\\CalculoEstacionamento.csproj|solutionrelative:calculoestacionamento\\entities\\icalculopreco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73E99EBA-1D22-4CFC-BF70-D0D9D929B3BE}|CalculoEstacionamento\\CalculoEstacionamento.csproj|c:\\users\\felip\\onedrive\\documents\\dio\\calculoestacionamento\\calculoestacionamento\\excecoes\\excecoesprincipais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73E99EBA-1D22-4CFC-BF70-D0D9D929B3BE}|CalculoEstacionamento\\CalculoEstacionamento.csproj|solutionrelative:calculoestacionamento\\excecoes\\excecoesprincipais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73E99EBA-1D22-4CFC-BF70-D0D9D929B3BE}|CalculoEstacionamento\\CalculoEstacionamento.csproj|c:\\users\\felip\\onedrive\\documents\\dio\\calculoestacionamento\\calculoestacionamento\\calculoestacionamento.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{73E99EBA-1D22-4CFC-BF70-D0D9D929B3BE}|CalculoEstacionamento\\CalculoEstacionamento.csproj|solutionrelative:calculoestacionamento\\calculoestacionamento.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\felip\\OneDrive\\Documents\\DIO\\CalculoEstacionamento\\CalculoEstacionamento\\Entities\\Carros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CalculoEstacionamento\\Entities\\Carros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +34,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Carros.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documents\\DIO\\CalculoEstacionamento\\CalculoEstacionamento\\Entities\\Carros.cs",
+              "RelativeDocumentMoniker": "CalculoEstacionamento\\Entities\\Carros.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documents\\DIO\\CalculoEstacionamento\\CalculoEstacionamento\\Entities\\Carros.cs",
+              "RelativeToolTip": "CalculoEstacionamento\\Entities\\Carros.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T23:57:20.54Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ICalculoPreco.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documents\\DIO\\CalculoEstacionamento\\CalculoEstacionamento\\Entities\\ICalculoPreco.cs",
+              "RelativeDocumentMoniker": "CalculoEstacionamento\\Entities\\ICalculoPreco.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documents\\DIO\\CalculoEstacionamento\\CalculoEstacionamento\\Entities\\ICalculoPreco.cs",
+              "RelativeToolTip": "CalculoEstacionamento\\Entities\\ICalculoPreco.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T23:30:53.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ExcecoesPrincipais.cs",
               "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documents\\DIO\\CalculoEstacionamento\\CalculoEstacionamento\\Excecoes\\ExcecoesPrincipais.cs",
               "RelativeDocumentMoniker": "CalculoEstacionamento\\Excecoes\\ExcecoesPrincipais.cs",
@@ -42,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CalculoEstacionamento.csproj",
               "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documents\\DIO\\CalculoEstacionamento\\CalculoEstacionamento\\CalculoEstacionamento.csproj",
               "RelativeDocumentMoniker": "CalculoEstacionamento\\CalculoEstacionamento.csproj",
@@ -60,7 +92,7 @@
               "RelativeDocumentMoniker": "CalculoEstacionamento\\Entities\\CadastroCarro.cs",
               "ToolTip": "C:\\Users\\felip\\OneDrive\\Documents\\DIO\\CalculoEstacionamento\\CalculoEstacionamento\\Entities\\CadastroCarro.cs",
               "RelativeToolTip": "CalculoEstacionamento\\Entities\\CadastroCarro.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABoAAAASAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T22:11:05.44Z",
               "EditorCaption": ""
@@ -73,7 +105,7 @@
               "RelativeDocumentMoniker": "CalculoEstacionamento\\Program.cs",
               "ToolTip": "C:\\Users\\felip\\OneDrive\\Documents\\DIO\\CalculoEstacionamento\\CalculoEstacionamento\\Program.cs",
               "RelativeToolTip": "CalculoEstacionamento\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAawBIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T22:16:08.985Z",
               "EditorCaption": ""
